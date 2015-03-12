@@ -1,3 +1,3 @@
 # PamelaChu
 
-Git du projet Entreprise Application d'EPITECH
+Git du projet Entreprise Application EPITECH du groupe Pamela Chu
