@@ -21,7 +21,11 @@ a:focus {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+@media (max-width:950px) {
+  .background-body {
+    background-size: auto;
+}  
+}
 .navbar-blue {
     background-image: url("../img/background-blue.png");
     opacity: 0.8;
