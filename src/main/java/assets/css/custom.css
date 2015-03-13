@@ -1,3 +1,72 @@
 /* Add additional stylesheets below
 -------------------------------------------------- */
+a {
+    color: #5ff1f7;
+}
+a:hover,
+a:focus {
+    color: #0b676a;
+    transition: all 0.5s;
+    text-decoration: none;
+}
+.text-blue {
+    color: #1597a2;   
+}
 
+.background-black {
+    background-color: #171717;   
+}
+.background-body {
+    background-image: url("../img/background-login.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar-blue {
+    background-image: url("../img/background-blue.png");
+    opacity: 0.8;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fafafa;
+    border-radius: 0px;
+    margin: 0;
+}
+
+.navbar-blue a {
+    color: #fafafa;
+}
+
+.navbar-toggle {
+    border: 2px solid #fafafa;
+    border-radius: 190px;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #fafafa;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li a:focus {
+    background-color: #1576a2;   
+}
+
+.panel-blue {
+    border-radius: 90px;
+}
+.panel-blue>.panel-heading {
+    background-color: #1597a2 !important;
+    color: #fafafa;
+}
+.panel-blue>.panel-body {
+    background-color: #fafafa;
+    border-bottom-left-radius: 2px;   
+    border-bottom-right-radius: 2px;   
+
+}
+
+.input-blue {
+    margin-bottom: 10px;
+}
+.input-blue:focus {
+    border-color: #1597a2;
+}
