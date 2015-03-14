@@ -9,6 +9,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
+        <link href='http://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
         <!-- Le styles -->
         <link href="/assets/webjars/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
         <!-- Optional theme -->
@@ -27,23 +28,13 @@
     <body class="background-body">
 
         <#include "header.ftl.html"/>
-        <div class="container-fluid">
 
-            <div class="text-blue">
-                <#if (flash.error)??>
-                    <div class="alert alert-danger">
-                        ${flash.error}
-                    </div>
-                </#if>
-
-                <#if (flash.success)??>
-                    <div class="alert alert-success">
-                        ${flash.success}
-                    </div>
-                </#if>
-
-                <#nested/>
+        <div class="container-fluid margin-navbar-mobile">
+            <div class="row">
+                <img align="middle" class="logo-site" src="assets/img/PamelaChu-logo.png">
             </div>
+            <#include "post-template.ftl.html"/>
+            <#include "login.ftl.html"/>
 
         </div>
 

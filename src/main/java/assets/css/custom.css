@@ -1,7 +1,11 @@
 /* Add additional stylesheets below
 -------------------------------------------------- */
+body {
+    font-family: 'Arimo', sans-serif;
+}
 a {
-    color: #5ff1f7;
+    color: #1597a2;
+    cursor: pointer;
 }
 a:hover,
 a:focus {
@@ -10,67 +14,160 @@ a:focus {
     text-decoration: none;
 }
 .text-blue {
-    color: #1597a2;   
+    color: #1597a2;
 }
-
 .background-black {
-    background-color: #171717;   
+    background-color: #171717;
 }
 .background-body {
     background-image: url("../img/background-login.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
-@media (max-width:950px) {
-  .background-body {
-    background-size: auto;
-}  
+@media (max-width: 950px) {
+    .background-body {
+        background-size: fixed ;
+    }
 }
 .navbar-blue {
     background-image: url("../img/background-blue.png");
-    opacity: 0.8;
+    opacity: 0.95;
     background-size: cover;
     background-repeat: no-repeat;
     color: #fafafa;
     border-radius: 0px;
-    margin: 0;
+    border: 1px solid rgba(255, 255, 255, 0.29);
+    margin: -1px;
 }
-
 .navbar-blue a {
     color: #fafafa;
 }
-
 .navbar-toggle {
-    border: 2px solid #fafafa;
-    border-radius: 190px;
+    margin: 0;
+    padding-top: 3px;
 }
-
-.navbar-toggle .icon-bar {
+/*.navbar-toggle .icon-bar {
     background-color: #fafafa;
-}
-
+}*/
 .navbar-nav li a:hover,
 .navbar-nav li a:focus {
-    background-color: #1576a2;   
+    background-color: #1576a2;
 }
-
 .panel-blue {
-    border-radius: 90px;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
-.panel-blue>.panel-heading {
+.panel-blue>.panel-heading,
+.panel-post>.panel-heading {
     background-color: #1597a2 !important;
     color: #fafafa;
 }
 .panel-blue>.panel-body {
     background-color: #fafafa;
-    border-bottom-left-radius: 2px;   
-    border-bottom-right-radius: 2px;   
-
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
 }
-
+.panel-post {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    
+}
+.panel-post>.panel-body-post {
+    background-color: #fafafa;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+.panel-post>.post-footer {
+    background-color: #fafafa;
+    padding: 8px;
+    border-top: 1px solid #eee;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+.panel-post>.panel-body-comment {
+    background-color: #eee;
+    font-size: 85%;
+    margin-bottom: -15px;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #fafafa;
+}
+.panel-post>.post-footer a {
+    padding-left: 5px;
+}
+.form-control {
+    border-radius: 2px;   
+}
 .input-blue {
     margin-bottom: 10px;
 }
 .input-blue:focus {
     border-color: #1597a2;
+}
+.navbar-toogle-img {
+    width: 40px;
+}
+
+.profile-img-post {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #eee;
+    border-radius: 100px;
+    margin-left: -15px;
+}
+.margin-navbar-mobile {
+    padding-top: 60px;
+}
+
+.profile-img-comment {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #eee;
+    border-radius: 100px;
+    margin-left: -15px;
+}
+
+.create-comment {
+    background-color: #eee;
+    font-size: 85%;
+    margin-bottom: -15px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    border-top: 1px solid #fafafa;
+}
+
+.input-comment {
+    padding: 3px;
+    height: auto;
+    font-size: 100%;
+}
+
+.btn-comment {
+    padding: 5px;
+    font-size: 80%;
+    font-family: 'Arimo', sans-serif;
+    border-radius: 45px;
+}
+
+.btn-blue {
+    background-color: #1597a2;
+    border: 1px solid #1597a2;
+    color: #fafafa;
+    text-transform: uppercase;
+    transition: all 1s;
+    letter-spacing: 1px;
+}
+.btn-blue:hover {
+    background-color: #fafafa;
+    border: 1px solid #1597a2;
+    color: #1597a2;
+}
+
+.logo-site {
+    width: 100px;
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
