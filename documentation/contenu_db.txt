@@ -1,11 +1,13 @@
 Les différentes pages :
 
-    - Page d'acceuil
-    - Page de login
-    - Page de profil
+    - Page de login/acceuil
     - Page d'actualités (le mur)
-    - Page des paramètres
+    - Page de profil :
+        - Page des paramètres
+        - Page des actualite
+        - Page d'info
 
+    
 
 Page de Profil :
 
