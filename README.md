@@ -6,7 +6,7 @@ A. Pour installer ninja:
 
 1. Installer la dernière version de Java (JDK): http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 
-2. Installer Maven (avec Honeybrew) : $> brew install mvn
+2. Installer Maven (avec Honeybrew) : $> brew install maven
 
 B. Créer sa première App Ninja (juste à titre informatif, cette installe à déjà été initialisée de cette manière):
 
