@@ -20,10 +20,10 @@
     <TextView
         android:id="@+id/textView2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="30dp"
         android:layout_marginBottom="15dp"
         android:layout_marginTop="15dp"
-        android:background="#03378A"
+        android:background="#1597A2"
         android:gravity="center"
         android:text="HOST"
         android:textColor="#FFFFFF"
@@ -32,21 +32,23 @@
     <EditText
         android:id="@+id/editText1"
         android:layout_width="300dp"
-        android:layout_height="wrap_content"
+        android:layout_height="25dp"
         android:layout_gravity="center"
-        android:background="#E6E6E6"
         android:ems="10"
         android:inputType="textPersonName"
         android:textColor="#000000"
-        android:textSize="15sp" />
+        android:textSize="15sp"
+        android:background="@drawable/round_corner"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" />
 
     <TextView
         android:id="@+id/TextView01"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="30dp"
         android:layout_marginBottom="15dp"
         android:layout_marginTop="15dp"
-        android:background="#03378A"
+        android:background="#1597A2"
         android:gravity="center"
         android:text="COMPTE"
         android:textColor="#FFFFFF"
@@ -55,22 +57,26 @@
     <EditText
         android:id="@+id/editText2"
         android:layout_width="300dp"
-        android:layout_height="wrap_content"
+        android:layout_height="25dp"
         android:layout_gravity="center"
-        android:background="#E6E6E6"
+        android:background="@drawable/round_corner"
         android:ems="10"
         android:inputType="textPersonName"
-        android:textColor="#000000" />
+        android:textColor="#000000"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" />
 
     <EditText
         android:id="@+id/editText3"
         android:layout_width="300dp"
-        android:layout_height="wrap_content"
+        android:layout_height="25dp"
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
-        android:background="#E6E6E6"
+        android:background="@drawable/round_corner"
         android:ems="10"
-        android:inputType="textPassword" >
+        android:inputType="textPassword"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
 
         <requestFocus />
     </EditText>
@@ -78,10 +84,10 @@
     <TextView
         android:id="@+id/textView4"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="30dp"
         android:layout_marginBottom="15dp"
         android:layout_marginTop="15dp"
-        android:background="#03378A"
+        android:background="#1597A2"
         android:gravity="center"
         android:text="TYPE DE NOTIFICATION"
         android:textColor="#FFFFFF"
@@ -123,10 +129,10 @@
     
     <Button
         android:id="@+id/button1"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
         android:layout_gravity="center"
-        android:background="#03378A"
+        android:background="#1597A2"
         android:minHeight="28dp"
         android:layout_marginBottom="15dp"
         android:layout_marginTop="15dp"

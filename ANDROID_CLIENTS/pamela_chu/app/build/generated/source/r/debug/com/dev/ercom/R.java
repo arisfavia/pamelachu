@@ -1437,6 +1437,7 @@ containing a value of this type.
         public static final int icon=0x7f020034;
         public static final int logo=0x7f020035;
         public static final int logo2=0x7f020036;
+        public static final int round_corner=0x7f020037;
     }
     public static final class id {
         public static final int Parametre=0x7f08005e;

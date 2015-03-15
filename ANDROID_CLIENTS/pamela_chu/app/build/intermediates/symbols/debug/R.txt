@@ -352,6 +352,7 @@ int drawable ic_launcher 0x7f020033
 int drawable icon 0x7f020034
 int drawable logo 0x7f020035
 int drawable logo2 0x7f020036
+int drawable round_corner 0x7f020037
 int id Parametre 0x7f08005e
 int id TextView01 0x7f080054
 int id action_bar 0x7f080042
