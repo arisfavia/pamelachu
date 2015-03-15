@@ -1,5 +1,6 @@
-/* Add additional stylesheets below
--------------------------------------------------- */
+/**
+*   General 
+*/
 body {
     font-family: 'Arimo', sans-serif;
 }
@@ -29,6 +30,20 @@ a:focus {
         background-size: fixed ;
     }
 }
+.form-control {
+    border-radius: 2px;   
+}
+.logo-site {
+    width: 120px;
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/**
+*   Navbars 
+*/
 .navbar-blue {
     background-image: url("../img/background-blue.png");
     opacity: 0.95;
@@ -44,15 +59,23 @@ a:focus {
 }
 .navbar-toggle {
     margin: 0;
-    padding-top: 3px;
+    padding-bottom: 0px;
+    padding-top: 0px;
 }
-/*.navbar-toggle .icon-bar {
-    background-color: #fafafa;
-}*/
 .navbar-nav li a:hover,
 .navbar-nav li a:focus {
     background-color: #1576a2;
 }
+.navbar-toogle-img {
+    width: 48px;
+}
+.margin-navbar-mobile {
+    padding-top: 60px;
+}
+
+/**
+*   Panels 
+*/
 .panel-blue {
     margin-bottom: 5px;
     margin-top: 5px;
@@ -67,6 +90,7 @@ a:focus {
     border-bottom-left-radius: 2px;
     border-bottom-right-radius: 2px;
 }
+
 .panel-post {
     margin-bottom: 5px;
     margin-top: 5px;
@@ -95,17 +119,35 @@ a:focus {
 .panel-post>.post-footer a {
     padding-left: 5px;
 }
-.form-control {
-    border-radius: 2px;   
+.create-comment {
+    background-color: #eee;
+    font-size: 85%;
+    margin-bottom: -15px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    border-top: 1px solid #fafafa;
 }
+.profile-img-comment {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #eee;
+    border-radius: 100px;
+    margin-left: -15px;
+}
+
+/**
+*   Inputs
+*/
 .input-blue {
     margin-bottom: 10px;
 }
 .input-blue:focus {
     border-color: #1597a2;
 }
-.navbar-toogle-img {
-    width: 40px;
+.input-comment {
+    padding: 3px;
+    height: auto;
+    font-size: 100%;
 }
 
 .profile-img-post {
@@ -115,33 +157,10 @@ a:focus {
     border-radius: 100px;
     margin-left: -15px;
 }
-.margin-navbar-mobile {
-    padding-top: 60px;
-}
 
-.profile-img-comment {
-    width: 40px;
-    height: 40px;
-    border: 1px solid #eee;
-    border-radius: 100px;
-    margin-left: -15px;
-}
-
-.create-comment {
-    background-color: #eee;
-    font-size: 85%;
-    margin-bottom: -15px;
-    padding-bottom: 10px;
-    padding-top: 5px;
-    border-top: 1px solid #fafafa;
-}
-
-.input-comment {
-    padding: 3px;
-    height: auto;
-    font-size: 100%;
-}
-
+/**
+*   Buttons
+*/
 .btn-comment {
     padding: 5px;
     font-size: 80%;
@@ -163,11 +182,13 @@ a:focus {
     color: #1597a2;
 }
 
-.logo-site {
-    width: 100px;
-    display: block;
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
+/**
+*   Profile
+*/
+.navbar-profile {
+    color: #1597a2;
+}
+
+.timeline-section {
     
 }
