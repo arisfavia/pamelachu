@@ -1,6 +1,6 @@
-C:\Users\ritchou\Desktop\PAMELA\pamelachu\ANDROID_CLIENTS\pamela_chu\app\build\intermediates\classes\debug
-C:\Users\ritchou\Desktop\PAMELA\pamelachu\ANDROID_CLIENTS\pamela_chu\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-e8a1c924c46cdac0abf01cca034b3cd4abac49dc.jar
-C:\Users\ritchou\Desktop\PAMELA\pamelachu\ANDROID_CLIENTS\pamela_chu\app\build\intermediates\pre-dexed\debug\classes-2d73fda1a3b56cc37286f5b4a97d51198ea65bbe.jar
-C:\Users\ritchou\Desktop\PAMELA\pamelachu\ANDROID_CLIENTS\pamela_chu\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-c3ac1b221623d7d0cdedc4cc0a8c9639dc6416b4.jar
-C:\Users\ritchou\Desktop\PAMELA\pamelachu\ANDROID_CLIENTS\pamela_chu\app\build\intermediates\pre-dexed\debug\classes-6ea7b2beb16bc57b116399259d17fdd451e3e0b2.jar
-C:\Users\ritchou\Desktop\PAMELA\pamelachu\ANDROID_CLIENTS\pamela_chu\app\build\intermediates\pre-dexed\debug\classes-ef44081d10e4cef2ba81c4093c85e472978f768c.jar
+/Users/Fix/Projects/pamelachu/ANDROID_CLIENTS/pamela_chu/app/build/intermediates/classes/debug
+/Users/Fix/Projects/pamelachu/ANDROID_CLIENTS/pamela_chu/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-4af44af4128800c32657eb0012de640668d846ca.jar
+/Users/Fix/Projects/pamelachu/ANDROID_CLIENTS/pamela_chu/app/build/intermediates/pre-dexed/debug/classes-9aeab8fe42e754f120fc63b5adaba4c2f1c6ed68.jar
+/Users/Fix/Projects/pamelachu/ANDROID_CLIENTS/pamela_chu/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-1eb13d4c3cb09953df9c5c9f5ac0ca08fa950e46.jar
+/Users/Fix/Projects/pamelachu/ANDROID_CLIENTS/pamela_chu/app/build/intermediates/pre-dexed/debug/classes-64e978bca8aad06f4aea296ffc19d1c556c2b540.jar
+/Users/Fix/Projects/pamelachu/ANDROID_CLIENTS/pamela_chu/app/build/intermediates/pre-dexed/debug/classes-992ece2b370c0efab370c1826fe32efbf1138618.jar

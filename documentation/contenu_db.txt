@@ -1,11 +1,13 @@
 Les différentes pages :
 
-    - Page d'acceuil
-    - Page de login
-    - Page de profil
+    - Page de login/acceuil
     - Page d'actualités (le mur)
-    - Page des paramètres
+    - Page de profil :
+        - Page des paramètres
+        - Page des actualite
+        - Page d'info
 
+    
 
 Page de Profil :
 
@@ -36,7 +38,14 @@ Page de Profil :
 Page de login :
 
 !   A. Créer un compte
-
+        - Nom
+        - Prénom
+        - Pseudo
+        - Mot de passe
+        - Adresse mail
+        - Date de naissance
+        
+        
 Types d'intéractions :
 
     - ++, -- (système de likes, le ++ vaut pour 2, et les négatifs sont à soustraire, du coup le chiffre affiché sera la sommes des + et -)
@@ -46,6 +55,12 @@ Types d'intéractions :
 
 Système d'amitié :
 
-
-
-
+    - Un système de follow/unfollow (Twitter style)
+    
+    table user
+    table post
+    table like
+    table follow
+    table share
+    table comments
+    
